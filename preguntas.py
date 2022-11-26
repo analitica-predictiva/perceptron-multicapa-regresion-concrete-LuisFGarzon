@@ -27,6 +27,7 @@ def pregunta_01():
     # Remueva la columna `strength` del DataFrame `X`.
     X = X.drop(["strength"], axis=1) 
 
+    
     # Retorne `X` y `y`
     return X, y
 
